@@ -2,6 +2,7 @@
 This is an end-to-end Machine Learning Project from Defining problem to building an app working on the ML model.
 
 This model is for predicting the winner of a football match.(Binary Classification problem as 0 for loss/draw and 1 for win)
+
 Data is collected by web-scrapping this football-stats website. (https://fbref.com/en)
 
 After EDA, and deploying various models, precision of the model is increased by using rolling average method for some feature.
