@@ -1,0 +1,20 @@
+
+<center><h1> EPL Prediction System</h1></center>
+<form action="/team" method="POST">
+    <div class="form-group shadow-textarea" style="margin-top: 30px;text-align: center;color: black;">
+        <label for="Week" class="form-label"> Match Week:</label>
+        <select name="Week" id="Week">
+            {% for weekday in weekdaylist %}
+            <option value= "{{weekday}}">{{weekday}}</option>"
+            {% endfor %}
+        </select>
+        <label for="Team" class="form-label"></label>
+        <input type="hidden" id="Team" name="Team" value="ABC">
+    </div>
+    <br>
+    <div class="form-group" style="text-align: center;">
+      <button class="btn btn-primary btn-block movie-button" style="background-color: #e50914;text-align: center;border-color: #e50914;width:120px;" type="submit" >Submit</button><br><br>
+    </div>
+</form>
+   
+
